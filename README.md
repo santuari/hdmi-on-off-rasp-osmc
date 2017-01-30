@@ -1,6 +1,6 @@
-#Force HDMI sleep in KODI/XMBC (Raspberry)
+#Force HDMI sleep in KODI/OSMC (Raspberry)
 
-1. Install [XBMC callbacks](http://kodi.wiki/view/Add-on:Kodi_Callbacks) add-on.
+1. Install [KODI callbacks](http://kodi.wiki/view/Add-on:Kodi_Callbacks) add-on.
 2. Navigate to the XBMC callbacks add-on (Settings -> Addons -> Services) and open the configuration:
 	- create task 1: type script, browse to the "screen-off.sh", flag execute in shell and wait for script to complete
 	- create a task 2: type script, browse to the "screen-on.sh", flag execute in shell and wait for script to complete
